@@ -9,4 +9,6 @@ class Sophia{
         Sophia(std::string config_file);
     private:
         releax::config conf;
+        StrToVec(std::string str);
+        VecToStr(std::vector<std::string> vecStr);
 };
