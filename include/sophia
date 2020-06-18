@@ -1,0 +1,12 @@
+#include <releax>
+#include <iostream>
+#include <vector>
+#include <map>
+#include <string>
+
+class Sophia{
+    public:
+        Sophia(std::string config_file);
+    private:
+        releax::config conf;
+};

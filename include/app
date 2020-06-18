@@ -1,0 +1,5 @@
+#pragma once
+#include<releax>
+#define CONFIG "sophia.conf"
+
+int sophia_main(releax::cli &app);
